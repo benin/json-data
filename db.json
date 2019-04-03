@@ -1,71 +1,68 @@
-{
-	"status": "Healthy",
-	"totalDuration": "00:00:04.6947062",
-	"entries": {
-		"bgd-dev-sql": {
-			"data": {},
-			"duration": "00:00:00.4633221",
-			"status": "Healthy"
-		},
-		"local version": {
-			"data": {
-				"versionInfo": {
-					"commit": "f5b16f42e41dd22bdbb41bd9d7b12725680ccf34",
-					"version": "1.0.1",
-					"buildDate": "20190329-145828",
-					"branch": "19.04.01",
-					"buildNumber": "1.0.0.27",
-					"buildName": "ISBetsWorldPayCI"
-				}
+[	
+	{
+		"id": 1,
+		"status": "Unhealthy",
+		"onStateFrom": "2019-04-03T14:54:30.7982934+03:00",
+		"lastExecuted": "2019-04-03T15:02:31.3784914+03:00",
+		"uri": "https://localhost:44314/_hc-ui",
+		"name": "WorldPay",
+		"discoveryService": null,
+		"entries": [
+			{
+				"id": 1,
+				"name": "Endpoint",
+				"status": "Unhealthy",
+				"description": "No connection could be made because the target machine actively refused it",
+				"duration": "00:00:00"
+			}
+		],
+		"history": []
+	},
+	{
+		"id": 2,
+		"status": "Healthy",
+		"onStateFrom": "2019-04-03T14:54:31.3018598+03:00",
+		"lastExecuted": "2019-04-03T15:02:31.8104191+03:00",
+		"uri": "http://localhost:61834/health",
+		"name": "BeatHealthCheck",
+		"discoveryService": null,
+		"entries": [
+			{
+				"id": 2,
+				"name": "bgd-dev-sql",
+				"status": "Healthy",
+				"description": null,
+				"duration": "00:00:00.0561504"
 			},
-			"description": "Version: 1.0.1; BuildDate: 20190329-145828; BuildNumber:1.0.0.27",
-			"duration": "00:00:00.1098209",
-			"status": "Healthy"
-		},
-		"isBetsWorldpay": {
-			"data": {
-				"versionInfo": {
-					"commit": "f5b16f42e41dd22bdbb41bd9d7b12725680ccf34",
-					"version": "1.0.1",
-					"buildDate": "20190329-145828",
-					"branch": "19.04.01",
-					"buildNumber": "1.0.0.27",
-					"buildName": "ISBetsWorldPayCI"
-				}
+			{
+				"id": 3,
+				"name": "local version",
+				"status": "Healthy",
+				"description": "Version: 1.0.1; BuildDate: 20190329-145828; BuildNumber:1.0.0.27",
+				"duration": "00:00:00.0002940"
 			},
-			"description": "Version: 1.0.1; BuildDate: 20190329-145828; BuildNumber:1.0.0.27",
-			"duration": "00:00:03.2513059",
-			"status": "Healthy"
-		},
-		"isBetsWorldpayNotifications": {
-			"data": {
-				"versionInfo": {
-					"commit": "f5b16f42e41dd22bdbb41bd9d7b12725680ccf34",
-					"version": "1.0.1",
-					"buildDate": "20190329-145831",
-					"branch": "19.04.01",
-					"buildNumber": "1.0.0.23",
-					"buildName": "ISBetsWorldPayNotificationCI"
-				}
+			{
+				"id": 4,
+				"name": "isBetsWorldpay",
+				"status": "Healthy",
+				"description": "Version: 1.0.1; BuildDate: 20190329-145828; BuildNumber:1.0.0.27",
+				"duration": "00:00:00.0620913"
 			},
-			"description": "Version: 1.0.1; BuildDate: 20190329-145831; BuildNumber:1.0.0.23",
-			"duration": "00:00:00.6974801",
-			"status": "Healthy"
-		},
-		"cashier": {
-			"data": {
-				"versionInfo": {
-					"commit": "6eb8870301a10dc2e5e64d88bf02a4ba6031d8b9",
-					"version": "1.0.1",
-					"buildDate": "20190402-144503",
-					"branch": "19.04.01",
-					"buildNumber": "1.0.1.727",
-					"buildName": "ISBetsCashier"
-				}
+			{
+				"id": 5,
+				"name": "isBetsWorldpayNotifications",
+				"status": "Healthy",
+				"description": "Version: 1.0.1; BuildDate: 20190329-145831; BuildNumber:1.0.0.23",
+				"duration": "00:00:00.1325040"
 			},
-			"description": "Version: 1.0.1; BuildDate: 20190402-144503; BuildNumber:1.0.1.727",
-			"duration": "00:00:00.1603177",
-			"status": "Healthy"
-		}
+			{
+				"id": 6,
+				"name": "cashier",
+				"status": "Healthy",
+				"description": "Version: 1.0.1; BuildDate: 20190402-144503; BuildNumber:1.0.1.727",
+				"duration": "00:00:00.1205915"
+			}
+		],
+		"history": []
 	}
-}
+]
