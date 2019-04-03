@@ -1,0 +1,71 @@
+{
+	"status": "Healthy",
+	"totalDuration": "00:00:04.6947062",
+	"entries": {
+		"bgd-dev-sql": {
+			"data": {},
+			"duration": "00:00:00.4633221",
+			"status": "Healthy"
+		},
+		"local version": {
+			"data": {
+				"versionInfo": {
+					"commit": "f5b16f42e41dd22bdbb41bd9d7b12725680ccf34",
+					"version": "1.0.1",
+					"buildDate": "20190329-145828",
+					"branch": "19.04.01",
+					"buildNumber": "1.0.0.27",
+					"buildName": "ISBetsWorldPayCI"
+				}
+			},
+			"description": "Version: 1.0.1; BuildDate: 20190329-145828; BuildNumber:1.0.0.27",
+			"duration": "00:00:00.1098209",
+			"status": "Healthy"
+		},
+		"isBetsWorldpay": {
+			"data": {
+				"versionInfo": {
+					"commit": "f5b16f42e41dd22bdbb41bd9d7b12725680ccf34",
+					"version": "1.0.1",
+					"buildDate": "20190329-145828",
+					"branch": "19.04.01",
+					"buildNumber": "1.0.0.27",
+					"buildName": "ISBetsWorldPayCI"
+				}
+			},
+			"description": "Version: 1.0.1; BuildDate: 20190329-145828; BuildNumber:1.0.0.27",
+			"duration": "00:00:03.2513059",
+			"status": "Healthy"
+		},
+		"isBetsWorldpayNotifications": {
+			"data": {
+				"versionInfo": {
+					"commit": "f5b16f42e41dd22bdbb41bd9d7b12725680ccf34",
+					"version": "1.0.1",
+					"buildDate": "20190329-145831",
+					"branch": "19.04.01",
+					"buildNumber": "1.0.0.23",
+					"buildName": "ISBetsWorldPayNotificationCI"
+				}
+			},
+			"description": "Version: 1.0.1; BuildDate: 20190329-145831; BuildNumber:1.0.0.23",
+			"duration": "00:00:00.6974801",
+			"status": "Healthy"
+		},
+		"cashier": {
+			"data": {
+				"versionInfo": {
+					"commit": "6eb8870301a10dc2e5e64d88bf02a4ba6031d8b9",
+					"version": "1.0.1",
+					"buildDate": "20190402-144503",
+					"branch": "19.04.01",
+					"buildNumber": "1.0.1.727",
+					"buildName": "ISBetsCashier"
+				}
+			},
+			"description": "Version: 1.0.1; BuildDate: 20190402-144503; BuildNumber:1.0.1.727",
+			"duration": "00:00:00.1603177",
+			"status": "Healthy"
+		}
+	}
+}
